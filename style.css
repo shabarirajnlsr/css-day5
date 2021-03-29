@@ -1,0 +1,55 @@
+.LoginMain{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     border: 5px solid rgb(11, 68, 190);
+     width: 500px;
+     height: 400px;
+}
+.login_page{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+.user_input input[type="text"],.user_input input[type="password"]{
+     width: 200px;
+     padding: 10px;
+     margin: 10px 0;
+     border: 2.5px solid goldenrod;
+     outline: none;
+     font-size: 18px;
+}
+.btn{
+     text-align: center;
+     padding: 10px;
+}
+.btn button{
+     padding: 5px;
+     letter-spacing: 1.5px;
+     background-color: rgb(6, 129, 103);
+     width: 150px;
+     outline: none;
+}
+
+.my_table table,tr,th,td{
+     border: 5px solid gray;
+     box-shadow: rgb(59, 50, 50);
+}
+.my_table th{
+     background-color: rgb(68, 65, 65); 
+     color: chartreuse;
+     padding: 10px;
+}
+.my_table td{
+     width: 100px;
+     text-align: center;
+     padding: 10px;
+}
+.my_table tr:nth-child(odd){
+     background-color: cornflowerblue;
+}
+.my_table tr:nth-child(even){
+     background-color: crimson;
+}

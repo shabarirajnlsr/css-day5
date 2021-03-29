@@ -1,0 +1,18 @@
+.p{
+     color: crimson;
+}
+@media (max-width:992px){
+     p{
+          color: darkgoldenrod;
+     }
+}
+@media (max-width:768px){
+     p{
+          color: rgb(98, 34, 151);
+     }
+}
+@media (max-width:620px){
+     p{
+          color:rgb(22, 87, 22);
+     }
+}
